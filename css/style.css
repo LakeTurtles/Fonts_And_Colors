@@ -1,0 +1,56 @@
+h1 {
+    color : whitesmoke;
+    background-color: darkseagreen;
+}
+
+.flexDiv1 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.title3 {
+    color:antiquewhite;
+    background-color: #C58940;
+}
+
+.redClass {
+    color : white;
+    background-color: red;
+}
+
+.headColors1 {
+    margin-left: 8%;
+    background-color: blueviolet;
+    width: 40%;
+    margin-right: 4%;
+}
+
+.headColors2 {
+    background-image: url(https://i.pinimg.com/550x/76/27/8c/76278c48c5bdfe03449ca3d8368f1b39.jpg);
+    width: 40%;
+}
+
+#darker_red {
+    color:rgb(107, 13, 13);
+    background-image: url(https://i.pinimg.com/550x/76/27/8c/76278c48c5bdfe03449ca3d8368f1b39.jpg);
+}
+
+.blueClass {
+    color : blue;
+}
+
+.blueVioletClass {
+    color: blueviolet;
+    background-color: black;
+}
+
+#green_id_3 {
+    color : greenyellow;
+    background-color: blue;
+}
+
+.customHex2 {
+    color :#4940c5;
+    background-color: #40c5c3;
+}

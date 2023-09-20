@@ -1,0 +1,27 @@
+#firstParagraph {
+    font-size: 1rem;
+}
+
+#secondParagraph {
+    font-size : 1em;
+    font-family: 'Pacifico', cursive;
+}
+
+#mainParagraphs {
+    font-size:  2.5rem;
+    font-family: Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: rgb(150, 144, 255);
+}
+
+.bolderParagraph {
+    font-weight: 800;
+    text-align: center;
+}
+

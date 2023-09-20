@@ -1,0 +1,23 @@
+1px : 1 pixel, 1/96th inch
+
+1pt : 1 point, 1/72nd inch, same as font size in a work document 
+
+1em : 100% of parent , It means “emphemeral unit” which is relative to the current font size. For example, if the current font size of the body or parent div was set to 16px, then the bottom padding would be set to 160px.
+2em : 2x relative size of parent, if parent is 30px, then selection will be 60px.
+
+1rem : 100% of root, Rem (short for “root-em”) units dictate an element's font size relative to the size of the root element. By default, most browsers use a font size value of 16px. So, if the root element is 16px, an element with the value 1rem will also equal 16px
+2rem : 2x relative size of root, being the html opening tag <html class="rootDiv_html" > </html> or first cascading div. Ignoring any Embedding. the root is 20px, so 2rem would be 40px, ignoring the embeded body div
+
+<html style="font-size : 10px;">
+<body style="font-size : 40px;">
+
+<div class="divClass1" >
+<h1> The first Header</h1>
+</div>
+
+<div class="divClass2">
+<h1> The Second Header </h1>
+</div>
+
+</body>
+</html>
